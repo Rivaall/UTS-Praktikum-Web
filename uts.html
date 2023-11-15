@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Berita</title>
+</head>
+<body>
+    <fieldset>
+        <form action="berita">
+
+            <h1 style="text-align: left;">Form Berita</h1>
+            <div class="row1" style="text-align: right;">
+                <tr>
+                    <td><a href="">Home</a></td>
+                    <td>></td>
+                    <td><a href="">Admin</a></td>
+                    <td>></td>
+                    <td>Kelola Mesjid</td>
+                </tr>
+            </div>
+            <div class="input1">
+                <label for="nama">Nama Mesjid :</label>
+                <input type="text">
+            </div>
+            <br>
+
+            <div class="input2">
+                <label for="judul">Judul Berita :</label>
+                <input type="text">
+            </div>
+            <br>
+
+            <div class="input2">
+                <label for="isi">Isi Berita :</label>
+                <textarea cols="50" rows="10"></textarea>
+            </div>
+            <br> 
+
+            <div class="input4">
+                <label for="penulis">Penulis :</label>
+                <input type="text">
+            </div>
+            <br>
+
+            <div class="input5">
+                <label for="tanggal">Tanggal Terbit :</label>
+                <input type="date">
+            </div>
+            <br>
+
+            <div class="input6">
+                <label for="Status">Status Berita :</label>
+                <tr>
+                    <td><input type="radio" name="Status" value="Draf" />Draf</td>
+                    <td><input type="radio" name="Status" value="Submit" />Submit</td>
+                    <td><input type="radio" name="Status" value="Riview" />Riview</td>
+                    <td><input type="radio" name="Status" value="Reject" />Reject</td>
+                    <td><input type="radio" name="Status" value="Approve" />Approve</td>
+                </tr>
+            </div>
+            <br>
+
+            <div class="input7">
+                <input type="submit" value="Simpan">
+                <input type="button" value="Update">
+                <input type="reset" value="Hapus">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
